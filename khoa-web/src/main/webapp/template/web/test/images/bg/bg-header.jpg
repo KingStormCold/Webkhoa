@@ -1,0 +1,981 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><title>
+	Khoa Công Nghệ Thông Tin | Đại học Tôn Đức Thắng
+</title><link href="/test/css/responsive-slider.css" rel="stylesheet" /><link href="/test/css/bootstrap-theme.min.css" rel="stylesheet" /><link href="/test/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" /><link href="/test/css/bootstrap.css" rel="stylesheet" /><link href="/test/css/include.css" rel="stylesheet" /><link href="/test/css/component.css" rel="stylesheet" /><link href="/test/css/modern-ticker.css" rel="stylesheet" /><link rel="stylesheet" href="/css/style.css" type="text/css" media="all" /><link rel="stylesheet" href="/css/superfish.css" type="text/css" media="all" />
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <link rel="stylesheet" href="/css/ie8.css" type="text/css" media="all" />
+    <![endif]-->
+    <style>
+        .navbar-collapse:after {
+            display: none;
+        }
+    </style>
+    
+    <style>
+        .videoWrapper {
+            padding-bottom: 64%;
+        }
+    </style>
+<meta name="description" content="Bản tin khoa , ,THÔNG BÁO: Nộp cuốn luận văn mạ vàng (Khóa 17) ,Thông báo tham dự buổi seminar với chủ đề &quot;Optimization in Human-Agent Collectives&quot; ,THÔNG BÁO: Kết quả xử lý học vụ gia hạn đào tạo tháng 10/2016 ,Nhóm nghiên cứu ,ATNA Group is an independence research group, doing project based on five- year plans; conforming to the rules, regulations of Ton Duc Thang University. ,Research Centres ,Modeling Evolutionary algoRithms simuLation and artificial INtelligence (MERLIN) ,Division of Data Science (DDS) ,Hoạt động , ,Đăng Ký Tham Gia Cuộc Thi &quot;Cuộc Đua Số&quot; Của FPT ,Top 05 sự kiện sinh viên tiêu biểu năm 2015 của Khoa Công nghệ thông tin ,Buổi đối thoại sinh viên học kỳ 1 năm học 2014-2015 ,Tuyển dụng , ,Caganu Group Tuyển Dụng Vị Trí PHP ,Chương Trình MWG Software Fresher Từ Thế Giới Di Đông ,Công Ty Avery Dennison Tuyển Thực Tập Sinh ," /></head>
+<body class="cbp-spmenu-push">
+    <div class="container bgContainer" style="padding-left: 0px; padding-right: 0px;">
+        <header>
+            <div class="bg-head">
+                <div class="col-md-2 col-sm-3 col-xs-6 col-xs-offset-3 col-sm-offset-0" id="logo">
+                    <a href="/Home/">
+                        
+                                <img src='/Upload/Img/logo.png' class="img-responsive" alt="logo" style="" />
+                            
+                        
+                    </a>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="col-sm-5 col-xs-12 TDTName">
+                    
+                            <img src='/Upload/Img/tdtName.png' class="img-responsive" alt="tdt" />
+                        
+                    
+
+                    <div class="clearfix"></div>
+                </div>
+                <div class="col-sm-3 hidden-xs pull-right">
+                    <ul class="list-inline language pull-right">
+                        <li style="width: 35px">
+                            <span class="lang-active vi-VN" dir="ltr"><a href="/en/Home" title='en'>
+                                <img src="/images/icon/eng.png" style="margin-top: -8px" />
+                            </a></span>
+                        </li>
+
+                        <li style="width: 48px; margin-left: 3px">
+                            <span><a href="/contactus" title='en'>Góp ý</a></span>
+                        </li>
+                        
+                                <li style="width: 65px; margin-right: -2px">
+                                    <span><a href="/bieu-mau" title='en'>Biểu mẫu</a></span>
+                                </li>
+                            
+                        
+
+                    </ul>
+                    <div class="clearfix"></div>
+
+                    <form id="SearchForm1" class="SearchForm" action="/search/">
+                        <input type="text" class="txtInput" name="id" id="id" placeholder="nhập nội dung tìm kiếm..." value="" />
+                        <button type="submit" id="searchsubmit" class="btn"><i class="fa fa-search"></i></button>
+                    </form>
+
+
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </header>
+        <div class="clearfix"></div>
+        <nav class="primary-menu">
+            <div class="out-menu">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle tip pull-left" data-toggle="collapse" data-target="#mainMenu" data-placement="right" title="menu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <button id="showRightPush" class="sb-toggle-right navbar-toggle tip" type="button" data-placement="left" title="Sidebar">
+                        <span class="sr-only">Menu Sidebar</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="collapse navbar-collapse" id="mainMenu">
+                    
+                            <ul id="mainMenuId" class="menu sf-menu">
+                                
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/Home/">Trang chủ
+</a>
+                                
+                            </li>
+                        
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/gioi-thieu">Giới thiệu</a>
+                                
+                                        <ul>
+                                            
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/lich-su-hoan-thanh">Lịch sử hình thành</a>
+                                            
+                                        </li>
+                                    
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/nhan-su">Nhân sự</a>
+                                            
+                                        </li>
+                                    
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/hop-tac-doanh-nghiep">Hợp tác doanh nghiệp</a>
+                                            
+                                        </li>
+                                    
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/co-hoi-viec-lam">Cơ hội việc làm</a>
+                                            
+                                        </li>
+                                    
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/contactus/">Liên hệ</a>
+                                            
+                                        </li>
+                                    
+                                        </ul>
+                                    
+                            </li>
+                        
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="javascript:void(0);">Đào tạo</a>
+                                
+                                        <ul>
+                                            
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/dai-hoc-chinh-quy">Đại học</a>
+                                            
+                                                    <ul>
+                                                        
+                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/dai-hoc-chinh-quy">Hệ Đại trà</a>
+                                                    </li>
+                                                
+                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/dai-hoc-chat-luong-cao">Hệ Chất lượng cao</a>
+                                                    </li>
+                                                
+                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/dai-hoc-lien-ket-2-2">Liên kết 2+2</a>
+                                                    </li>
+                                                
+                                                    </ul>
+                                                
+                                        </li>
+                                    
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/sau-dai-hoc-thac-si">Sau Đại học</a>
+                                            
+                                                    <ul>
+                                                        
+                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/sau-dai-hoc-thac-si">Thạc sĩ</a>
+                                                    </li>
+                                                
+                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/sau-dai-hoc-tien-si-lien-ket">Tiến sĩ liên kết</a>
+                                                    </li>
+                                                
+                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href=""> Tiến sĩ trong nước</a>
+                                                    </li>
+                                                
+                                                    </ul>
+                                                
+                                        </li>
+                                    
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="javascript:void(0)" onclick="window.open('http://sakai.it.tdt.edu.vn','_blank');">Cổng thông tin Sakai</a>
+                                            
+                                        </li>
+                                    
+                                        </ul>
+                                    
+                            </li>
+                        
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="javascript:void(0);">Nghiên cứu khoa học</a>
+                                
+                                        <ul>
+                                            
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/nhom-nghien-cuu">Nhóm nghiên cứu</a>
+                                            
+                                        </li>
+                                    
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/hoi-nghi-hoi-thao">Hội nghị - hội thảo</a>
+                                            
+                                        </li>
+                                    
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="javascript:void(0);" onclick = "window.open('/publications','_blank');">Công trình công bố</a>
+                                            
+                                        </li>
+                                    
+                                        </ul>
+                                    
+                            </li>
+                        
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/chuong-trinh-lop-thuong">Tuyển sinh</a>
+                                
+                                        <ul>
+                                            
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/chuong-trinh-lop-thuong">Đại học</a>
+                                            
+                                                    <ul>
+                                                        
+                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/chuong-trinh-lop-thuong"> Thường</a>
+                                                    </li>
+                                                
+                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/chuong-trinh-lien-ket"> Liên kết</a>
+                                                    </li>
+                                                
+                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/chuong-trinh-chat-luong-cao"> Chất lượng cao</a>
+                                                    </li>
+                                                
+                                                    </ul>
+                                                
+                                        </li>
+                                    
+                                        </ul>
+                                    
+                            </li>
+                        
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/tin-tuc">Tin tức</a>
+                                
+                                        <ul>
+                                            
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/thong-bao-hoc-vu">Thông báo học vụ</a>
+                                            
+                                        </li>
+                                    
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/tin-do-an-luan-van">Tin đồ án-luận văn</a>
+                                            
+                                        </li>
+                                    
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/tuyen-dung">Tuyển dụng</a>
+                                            
+                                        </li>
+                                    
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/hoat-dong-khoa">Hoạt động khoa</a>
+                                            
+                                        </li>
+                                    
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/hoat-dong-sinh-vien">Hoạt động sinh viên</a>
+                                            
+                                        </li>
+                                    
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/journal-club">Journal club</a>
+                                            
+                                        </li>
+                                    
+                                        </ul>
+                                    
+                            </li>
+                        
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/gioi-thieu-lcd-khoa-cntt">Đoàn khoa</a>
+                                
+                                        <ul>
+                                            
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/gioi-thieu-lcd-khoa-cntt">Giới thiệu LCĐ Khoa CNTT</a>
+                                            
+                                        </li>
+                                    
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/thong-bao-lcd-khoa">Thông báo LCĐ Khoa</a>
+                                            
+                                        </li>
+                                    
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/bch-cac-chi-doan">BCH các chi đoàn</a>
+                                            
+                                        </li>
+                                    
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/mau-bao-cao-ctsv-doan-hoi-2015">Biểu mẫu</a>
+                                            
+                                        </li>
+                                    
+                                        </ul>
+                                    
+                            </li>
+                        
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/cuu-sv">Cựu SV</a>
+                                
+                            </li>
+                        
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/sv-tieu-bieu">SV tiêu biểu</a>
+                                
+                            </li>
+                        
+                            </ul>
+                        
+                    
+                </div>
+            </div>
+
+        </nav>
+        
+    <section id="slideshow">
+        <div class="row" style="margin-top: 10px; padding-bottom: 10px;">
+            <div class="col-sm-8">
+                <div class="responsive-slider" id="mainSlider" data-spy="responsive-slider" data-autoplay="true">
+                    <div class="slides" data-group="slides">
+                        <ul>
+                            
+                                    
+                                    <li>
+                                        <div class="slide-body" data-group="slide">
+                                            <img src="/Upload/Banner/cover-web-20-nam.png">
+                                            <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
+                                                <h2>Ton Duc Thang University - 20th Anniversary</h2>
+                                                <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                
+                                    <li>
+                                        <div class="slide-body" data-group="slide">
+                                            <img src="/Upload/Banner/IMG_6111-Edit (FILEminimizer).jpg">
+                                            <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
+                                                <h2>TẬP THỂ GIẢNG VIÊN KHOA CÔNG NGHỆ THÔNG TIN</h2>
+                                                <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                
+                                    <li>
+                                        <div class="slide-body" data-group="slide">
+                                            <img src="/Upload/Banner/DSC01202.jpg">
+                                            <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
+                                                <h2>Sinh viên Khoa CNTT - Đại học Tôn Đức Thắng</h2>
+                                                <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                
+                                    <li>
+                                        <div class="slide-body" data-group="slide">
+                                            <img src="/Upload/Banner/banner_it_5_years_anniversary.jpg">
+                                            <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
+                                                <h2>Kỷ Niệm 5 Năm Thành Lập Khoa CNTT (2012 - 2017)</h2>
+                                                <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                
+                                    <li>
+                                        <div class="slide-body" data-group="slide">
+                                            <img src="/Upload/Banner/11947435_933651336688169_4493336659349629076_n.jpg">
+                                            <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
+                                                <h2>Lễ trao chứng chỉ hoàn thành khóa học Global Software Talent của công ty FPT Software</h2>
+                                                <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                
+                                    <li>
+                                        <div class="slide-body" data-group="slide">
+                                            <img src="/Upload/Banner/DSC00185 (FILEminimizer).jpg">
+                                            <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
+                                                <h2>SINH VIÊN KHOA CÔNG NGHỆ THÔNG TIN</h2>
+                                                <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                
+                                    <li>
+                                        <div class="slide-body" data-group="slide">
+                                            <img src="/Upload/Banner/DSC00111 (FILEminimizer).jpg">
+                                            <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
+                                                <h2>THẦY CÔ VÀ CÁC BẠN SINH VIÊN THAM GIA HỘI DIỄN VĂN NGHỆ TOÀN TRƯỜNG</h2>
+                                                <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                
+                                    <li>
+                                        <div class="slide-body" data-group="slide">
+                                            <img src="/Upload/Banner/Banner_Enterprise_Logos.jpg">
+                                            <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
+                                                <h2>Our Partners</h2>
+                                                <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300">Become our partners today, and get benefits!</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                
+                                    <li>
+                                        <div class="slide-body" data-group="slide">
+                                            <img src="/Upload/Banner/RoboGame2017.jpg">
+                                            <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
+                                                <h2>RoboGame 2017</h2>
+                                                <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300">Thông tin cuộc thi RoboGame 2017 - http://it.tdt.edu.vn/robogame-2017</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                
+                                
+                            
+                        </ul>
+                    </div>
+                    <a class="slider-control left" href="#" data-jump="prev"><i class="fa fa-angle-left"></i></a>
+                    <a class="slider-control right" href="#" data-jump="next"><i class="fa fa-angle-right"></i></a>
+                    <div class="pages">
+                        <a class="page" href="#" data-jump-to="1">1</a>
+                        <a class="page" href="#" data-jump-to="2">2</a>
+                        <a class="page" href="#" data-jump-to="3">3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 hidden-xs">
+                <div class="topEvent" style="height: 100% !important">
+                    <div class="inner">
+                        <div class="videoWrapper">
+                            <!-- Copy & Pasted from YouTube -->
+                            <iframe width="560" height="315" src="//www.youtube.com/embed/mtHOspxPIiE?list=PLGTJirkXFpXo9ddROj2-5UPFxOCk9Qhr6" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    
+                    <div class="hotLabel">Video</div>                    <div class="inner">
+                        <div class="videoWrapper">
+                            <!-- Copy & Pasted from YouTube -->
+                            <iframe width="560" height="315" src="//www.youtube.com/embed/AtyWo_Eklyk" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+
+        <section id="mainContent">
+            <div class=" bg-content">
+                <div class="row">
+
+                    
+
+    <div id="content" class="col-sm-8" style="">
+
+        
+                
+                <div class="post">
+                    <div class="postHeader">
+                        <h2><a href="/ban-tin-khoa">
+                            <span id="ContentPlaceHolder1_Lst_cat_Lbl_ND_0">Bản tin khoa</span>
+                        </a></h2>
+                    </div>
+                    
+                    <div class="postContent row">
+
+                        <div class="col-sm-8">
+                            
+                                    <ul class="firstNews">
+                                        <li>
+                                            <div class="col-sm-4 pic no-padding-left">
+                                                <a href="/thong-bao-ke-hoach-xu-ly-qua-han-dao-tao-he-cq-khoa-14-dh-va-khoa-8-cd-tro-ve-truoc">
+                                                    <img src="/Upload/News/TĐT_logo23.png" class="img-responsive img-thumbnail" alt="pic" />
+                                                    <span><i class="fa fa-link"></i></span>
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-8 description no-padding-left">
+                                                <h2><a href="/thong-bao-ke-hoach-xu-ly-qua-han-dao-tao-he-cq-khoa-14-dh-va-khoa-8-cd-tro-ve-truoc">THÔNG BÁO: Kế hoạch xử lý quá hạn đào tạo hệ CQ - Khóa 14 ĐH và Khóa 8 CĐ trở về trước</a> </h2>
+                                                <div class="date"><span>17/10/2017</span> </div>
+                                                <p>
+                                                    <span id="ContentPlaceHolder1_Lst_cat_Lst_Art1_0_Lbl_ND1_0"></span>
+                                                </p>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </li>
+                                    </ul>
+                                
+                            
+                        </div>
+                        <div class="col-sm-4 others">
+                            <ul class="news-list">
+                                
+                                        
+                                        <li><a href="/thong-bao-nop-cuon-luan-van-ma-vang-(khoa-17)">
+                                            <span id="ContentPlaceHolder1_Lst_cat_Lst_Art_0_Lbl_ND2_0">THÔNG BÁO: Nộp cuốn luận văn mạ vàng (Khóa 17)</span></a> </li>
+                                    
+                                        <li><a href="/thong-bao-tham-du-buoi-seminar-voi-chu-de-optimization-in-human-agent-collectives">
+                                            <span id="ContentPlaceHolder1_Lst_cat_Lst_Art_0_Lbl_ND2_1">Thông báo tham dự buổi seminar với chủ đề "Optimization in Human-Agent Collectives"</span></a> </li>
+                                    
+                                        <li><a href="/thong-bao-ket-qua-xu-ly-hoc-vu-gia-han-dao-tao-thang-10-2016">
+                                            <span id="ContentPlaceHolder1_Lst_cat_Lst_Art_0_Lbl_ND2_2">THÔNG BÁO: Kết quả xử lý học vụ gia hạn đào tạo tháng 10/2016</span></a> </li>
+                                    
+                                    
+                                
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            
+                <div class="post">
+                    <div class="postHeader">
+                        <h2><a href="/nhom-nghien-cuu">
+                            <span id="ContentPlaceHolder1_Lst_cat_Lbl_ND_1">Nhóm nghiên cứu</span>
+                        </a></h2>
+                    </div>
+                    
+                    <div class="postContent row">
+
+                        <div class="col-sm-8">
+                            
+                                    <ul class="firstNews">
+                                        <li>
+                                            <div class="col-sm-4 pic no-padding-left">
+                                                <a href="/algorithms-and-technologies-for-fetworks-analysis-ATNA">
+                                                    <img src="/Upload/News/Social_Network_Analysis_Visualization.png" class="img-responsive img-thumbnail" alt="pic" />
+                                                    <span><i class="fa fa-link"></i></span>
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-8 description no-padding-left">
+                                                <h2><a href="/algorithms-and-technologies-for-fetworks-analysis-ATNA">Algorithms and Technologies for Networks Analysis (ATNA)</a> </h2>
+                                                <div class="date"><span>07/11/2015</span> </div>
+                                                <p>
+                                                    <span id="ContentPlaceHolder1_Lst_cat_Lst_Art1_1_Lbl_ND1_0">ATNA Group is an independence research group, doing project based on five- year plans; conforming to the rules, regulations of Ton Duc Thang University.</span>
+                                                </p>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </li>
+                                    </ul>
+                                
+                            
+                        </div>
+                        <div class="col-sm-4 others">
+                            <ul class="news-list">
+                                
+                                        
+                                        <li><a href="/research-centres">
+                                            <span id="ContentPlaceHolder1_Lst_cat_Lst_Art_1_Lbl_ND2_0">Research Centres</span></a> </li>
+                                    
+                                        <li><a href="/modeling-evolutionary-algorithms-simulation-and-artificial-intelligence">
+                                            <span id="ContentPlaceHolder1_Lst_cat_Lst_Art_1_Lbl_ND2_1">Modeling Evolutionary algoRithms simuLation and artificial INtelligence (MERLIN)</span></a> </li>
+                                    
+                                        <li><a href="/division-of-data-science">
+                                            <span id="ContentPlaceHolder1_Lst_cat_Lst_Art_1_Lbl_ND2_2">Division of Data Science (DDS)</span></a> </li>
+                                    
+                                    
+                                
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            
+                <div class="post">
+                    <div class="postHeader">
+                        <h2><a href="/hoat-dong">
+                            <span id="ContentPlaceHolder1_Lst_cat_Lbl_ND_2">Hoạt động</span>
+                        </a></h2>
+                    </div>
+                    
+                    <div class="postContent row">
+
+                        <div class="col-sm-8">
+                            
+                                    <ul class="firstNews">
+                                        <li>
+                                            <div class="col-sm-4 pic no-padding-left">
+                                                <a href="/dang-ky-tham-du-seminar-cua-cong-ty-igs-ve-cong-viec-it-tai-nhat">
+                                                    <img src="/Upload/News/logo tdt3.PNG" class="img-responsive img-thumbnail" alt="pic" />
+                                                    <span><i class="fa fa-link"></i></span>
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-8 description no-padding-left">
+                                                <h2><a href="/dang-ky-tham-du-seminar-cua-cong-ty-igs-ve-cong-viec-it-tai-nhat">Đăng ký tham dự seminar của công ty IGS về công việc IT tại Nhật</a> </h2>
+                                                <div class="date"><span>09/10/2017</span> </div>
+                                                <p>
+                                                    <span id="ContentPlaceHolder1_Lst_cat_Lst_Art1_2_Lbl_ND1_0"></span>
+                                                </p>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </li>
+                                    </ul>
+                                
+                            
+                        </div>
+                        <div class="col-sm-4 others">
+                            <ul class="news-list">
+                                
+                                        
+                                        <li><a href="/cuoc-dua-so-fpt-2016">
+                                            <span id="ContentPlaceHolder1_Lst_cat_Lst_Art_2_Lbl_ND2_0">Đăng Ký Tham Gia Cuộc Thi "Cuộc Đua Số" Của FPT</span></a> </li>
+                                    
+                                        <li><a href="/top-05-su-kien-sinh-vien-tieu-bieu-nam-2015-cua-khoa-cong-nghe-thong-tin">
+                                            <span id="ContentPlaceHolder1_Lst_cat_Lst_Art_2_Lbl_ND2_1">Top 05 sự kiện sinh viên tiêu biểu năm 2015 của Khoa Công nghệ thông tin</span></a> </li>
+                                    
+                                        <li><a href="/buoi-doi-thoai-sinh-vien-hoc-ky-1-nam-hoc-2014-2015">
+                                            <span id="ContentPlaceHolder1_Lst_cat_Lst_Art_2_Lbl_ND2_2">Buổi đối thoại sinh viên học kỳ 1 năm học 2014-2015</span></a> </li>
+                                    
+                                    
+                                
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            
+                <div class="post">
+                    <div class="postHeader">
+                        <h2><a href="/tuyen-dung">
+                            <span id="ContentPlaceHolder1_Lst_cat_Lbl_ND_3">Tuyển dụng</span>
+                        </a></h2>
+                    </div>
+                    
+                    <div class="postContent row">
+
+                        <div class="col-sm-8">
+                            
+                                    <ul class="firstNews">
+                                        <li>
+                                            <div class="col-sm-4 pic no-padding-left">
+                                                <a href="/career-talk-voi-cong-ty-robert-bosch-viet-nam-09-11-2017">
+                                                    <img src="/Upload/News/bosch_logo_vietnamese.png" class="img-responsive img-thumbnail" alt="pic" />
+                                                    <span><i class="fa fa-link"></i></span>
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-8 description no-padding-left">
+                                                <h2><a href="/career-talk-voi-cong-ty-robert-bosch-viet-nam-09-11-2017">Career Talk Với Công Ty Robert Bosch Việt Nam 09/11/2017</a> </h2>
+                                                <div class="date"><span>16/10/2017</span> </div>
+                                                <p>
+                                                    <span id="ContentPlaceHolder1_Lst_cat_Lst_Art1_3_Lbl_ND1_0"></span>
+                                                </p>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </li>
+                                    </ul>
+                                
+                            
+                        </div>
+                        <div class="col-sm-4 others">
+                            <ul class="news-list">
+                                
+                                        
+                                        <li><a href="/caganu-group-tuyen-dung-vi-tri-php-08-2017">
+                                            <span id="ContentPlaceHolder1_Lst_cat_Lst_Art_3_Lbl_ND2_0">Caganu Group Tuyển Dụng Vị Trí PHP</span></a> </li>
+                                    
+                                        <li><a href="/chuong-trinh-mwg-software-fresher-tu-the-gioi-di-dong-08-2017">
+                                            <span id="ContentPlaceHolder1_Lst_cat_Lst_Art_3_Lbl_ND2_1">Chương Trình MWG Software Fresher Từ Thế Giới Di Đông</span></a> </li>
+                                    
+                                        <li><a href="/cong-ty-avery-dennison-tuyen-thuc-tap-sinh-08-2017">
+                                            <span id="ContentPlaceHolder1_Lst_cat_Lst_Art_3_Lbl_ND2_2">Công Ty Avery Dennison Tuyển Thực Tập Sinh</span></a> </li>
+                                    
+                                    
+                                
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            
+            
+        
+    </div>
+
+                    <div id="sidebar" class="col-sm-4">
+                        <div class="mod hidden-xs">
+                            <div class="modHead">
+                                <h2>Tin tức mới</h2>
+                            </div>
+                            <div class="modContent">
+                                <div class="tab-content">
+                                    <div class="tab-pane active fade in" id="Tab1Id">
+                                        <ul class="news-list">
+                                            
+                                                    
+                                                    <li>
+                                                        <h2><i class="fa fa-angle-double-right"></i><a href="/thong-bao-ke-hoach-xu-ly-qua-han-dao-tao-he-cq-khoa-14-dh-va-khoa-8-cd-tro-ve-truoc">THÔNG BÁO: Kế hoạch xử lý quá hạn đào tạo hệ CQ - Khóa 14 ĐH và Khóa 8 CĐ trở về trước</a>
+                                                            <span class="clearfix"></span>17/10/2017<label class="news">
+                                                                <img src="/images/new.gif" alt="news" /></label></h2>
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <h2><i class="fa fa-angle-double-right"></i><a href="/career-talk-voi-cong-ty-robert-bosch-viet-nam-09-11-2017">Career Talk Với Công Ty Robert Bosch Việt Nam 09/11/2017</a>
+                                                            <span class="clearfix"></span>16/10/2017<label class="news">
+                                                                <img src="/images/new.gif" alt="news" /></label></h2>
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <h2><i class="fa fa-angle-double-right"></i><a href="/thong-bao-xu-ly-hoc-vu-sinh-vien-qua-han-dao-tao-no-hoc-phi-va-canh-bao-hoc-vu-dot-thang-09-2017-(he-lien-thong-vhvl)">THÔNG BÁO: Xử lý học vụ sinh viên quá hạn đào tạo, nợ học phí và cảnh báo học vụ đợt tháng 09/2017 (hệ Liên thông, VHVL)</a>
+                                                            <span class="clearfix"></span>14/10/2017<label class="news">
+                                                                <img src="/images/new.gif" alt="news" /></label></h2>
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <h2><i class="fa fa-angle-double-right"></i><a href="/thong-bao-tuyen-dung-cong-ty-contemi-viet-nam">THÔNG BÁO: Tuyển dụng của công ty Contemi Việt Nam</a>
+                                                            <span class="clearfix"></span>13/10/2017<label class="news">
+                                                                <img src="/images/new.gif" alt="news" /></label></h2>
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <h2><i class="fa fa-angle-double-right"></i><a href="/thong-bao-nhan-bang-tot-nghiep-dot-thang-09-2017">THÔNG BÁO: Nhận bằng tốt nghiệp đợt tháng 09/2017</a>
+                                                            <span class="clearfix"></span>12/10/2017<label class="news">
+                                                                <img src="/images/new.gif" alt="news" /></label></h2>
+                                                    </li>
+                                                
+                                                
+                                            
+                                        </ul>
+
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="mod">
+                            
+                                    <a href="/su-kien-sap-toi">
+                                        <img src='/images/SKST.png' class="img-responsive img-thumbnail" alt="pic" />
+                                    </a>
+                                
+                            
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="mod">
+                            
+                                    <a href="/microsoft-imagine">
+                                        <img src='/images/DREAMSPARK.png' class="img-responsive img-thumbnail" alt="pic" />
+                                    </a>
+                                
+                            
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="mod">
+                            
+                                    <a href="/tuyen-sinh">
+                                        
+                                                <img src='/Upload/Img/banner-tuyensinh2.jpg' class="img-responsive img-thumbnail" alt="pic" />
+                                            
+                                        
+                                    </a>
+                                
+                            
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="mod hidden-xs">
+                            <div class="modHead">
+                                <h2>Liên kết web</h2>
+                            </div>
+                            <div class="modContent">
+                                <div class="panel-group" id="accordion">
+
+                                    
+                                            
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#accordion" href="#Div3"><i class="fa fa-plus-circle"></i>DÀNH CHO SINH VIÊN
+                                                        </a>
+                                                        
+                                                    </h4>
+                                                </div>
+                                                <div id="Div3" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                        <ul class="list-item">
+                                                            
+                                                                    
+                                                                    <li><a href="https://student.tdt.edu.vn/" target="_blank">Hệ thống thông tin sinh viên</a> </li>
+                                                                
+                                                                    <li><a href="https://mail.tdt.edu.vn/" target="_blank">Hệ thống mail</a> </li>
+                                                                
+                                                                    <li><a href="http://dkmh.tdt.edu.vn/" target="_blank">Đăng ký môn học</a> </li>
+                                                                
+                                                                
+                                                            
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#accordion" href="#Div4"><i class="fa fa-plus-circle"></i>LIÊN KẾT WEB 
+                                                        </a>
+                                                        
+                                                    </h4>
+                                                </div>
+                                                <div id="Div4" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                        <ul class="list-item">
+                                                            
+                                                                    
+                                                                    <li><a href="http://www.tdt.edu.vn/" target="_blank">Đại học Tôn Đức Thắng</a> </li>
+                                                                
+                                                                    <li><a href="http://pdt.tdt.edu.vn/" target="_blank">Weblsite phòng đào tạo</a> </li>
+                                                                
+                                                                    <li><a href="http://ptc.tdt.edu.vn/" target="_blank">Website phòng tài chính</a> </li>
+                                                                
+                                                                
+                                                            
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                        
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+        <footer>
+            <div class=" footer">
+                <div class="col-sm-5 col-xs-10 info col-xs-offset-1">
+                    <h1 class="header"></h1>
+                    <h3>Khoa Công nghệ Thông tin</h3>
+                    <div>
+                        <span style="">Địa chỉ : Phòng C004, Nguyễn Hữu Thọ, P.Tân Phong, Quận 7, Tp.Hồ Chí Minh</span>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div>
+                        <span style="">Điện thoại : (08) 37755046 - (08) 37755046</span>
+                        <div class="clearfix"></div>
+                    </div>
+                    <h1 class="header"></h1>
+
+                </div>
+
+                <div class="col-sm-3 col-xs-10 col-xs-offset-1  social" style="margin-bottom:20px">
+                    <h2 class="header">Liên kết mạng xã hội</h2>
+                    <a href="https://www.facebook.com/it.tdt.edu.vn" class="facebook" onclick="window.open(this.href,'_blank');return false;">
+                        <img src="/images/icon/facebook.png" style="width: 40px; height: 40px;">
+                    </a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="copyRightt text-center">
+                <div>Copyright &copy; 2016 - Trường Đại học Tôn Đức Thắng</div>
+                <div>Khoa Công nghệ Thông tin</div>
+                <div class="clearfix"></div>
+            </div>
+        </footer>
+    </div>
+    <!-- =====sidebar mobile========== -->
+    <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+        <div class="logo">
+            <div class="col-xs-6 col-xs-offset-3 ">
+                <a href="/Home/">
+                    
+                            <img src='/Upload/Img/logo.png' class="img-responsive" alt="logo" style="" />
+                        
+                </a>
+            </div>
+            <div class="clearfix"></div>
+            <h2>Khoa công nghệ thông tin</h2>
+            <div class="col-xs-12">
+                <form id="Form1" class="SearchForm" action="/Search/">
+                    <input type="text" class="txtInput" name="id" id="id1" placeholder="nhập nội dung tìm kiếm..." value="" />
+                    <button type="submit" id="searchsubmit1" class="btn"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="mod hidden-xs col-xs-12">
+            <div class="modHead">
+                <h2>Liên kết web</h2>
+            </div>
+            <div class="modContent">
+                <div class="panel-group" id="acc">
+
+                    
+                            
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#Div5"><i class="fa fa-plus-circle"></i>DÀNH CHO SINH VIÊN
+                                        </a>
+                                        
+                                    </h4>
+                                </div>
+                                <div id="Div5" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul class="list-item">
+                                            
+                                                    
+                                                    <li><a href="https://student.tdt.edu.vn/" target="_blank">Hệ thống thông tin sinh viên</a> </li>
+                                                
+                                                    <li><a href="https://mail.tdt.edu.vn/" target="_blank">Hệ thống mail</a> </li>
+                                                
+                                                    <li><a href="http://dkmh.tdt.edu.vn/" target="_blank">Đăng ký môn học</a> </li>
+                                                
+                                                
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#Div6"><i class="fa fa-plus-circle"></i>LIÊN KẾT WEB 
+                                        </a>
+                                        
+                                    </h4>
+                                </div>
+                                <div id="Div6" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul class="list-item">
+                                            
+                                                    
+                                                    <li><a href="http://www.tdt.edu.vn/" target="_blank">Đại học Tôn Đức Thắng</a> </li>
+                                                
+                                                    <li><a href="http://pdt.tdt.edu.vn/" target="_blank">Weblsite phòng đào tạo</a> </li>
+                                                
+                                                    <li><a href="http://ptc.tdt.edu.vn/" target="_blank">Website phòng tài chính</a> </li>
+                                                
+                                                
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        
+                </div>
+            </div>
+        </div>
+
+        <div class="mod col-xs-12">
+            
+                    <a href="/microsoft-imagine">
+                        <img src='/images/DREAMSPARK.png' class="img-responsive img-thumbnail" alt="pic" />
+                    </a>
+                
+            <div class="clearfix"></div>
+        </div>
+        <div class="mod col-xs-12">
+            
+                    <a href="/tuyen-sinh">
+                        
+                                <img src='/Upload/Img/banner-tuyensinh2.jpg' class="img-responsive img-thumbnail" alt="pic" />
+                            
+                        
+                    </a>
+                
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </nav>
+    <!-- ======end sidebar======== -->
+    <a href="#" class="backToTop"><i class="fa fa-hand-o-up"></i></a>
+    <!-- include jquery -->
+    <script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/responsive-slider.js"></script>
+    <script type="text/javascript" src="/js/bootstrap-select.min.js"></script>
+    <script src="/js/tinynav.min.js"></script>
+    <script type="text/javascript" src="/js/mainScript.js"></script>
+    <script src="/js/modernizr.custom.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/jquery.modern-ticker.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+        });
+        var
+            menuRight = document.getElementById('cbp-spmenu-s2'),
+            showRightPush = document.getElementById('showRightPush'),
+            body = document.body;
+        showRightPush.onclick = function () {
+            classie.toggle(this, 'active');
+            classie.toggle(body, 'cbp-spmenu-push-toleft');
+            classie.toggle(menuRight, 'cbp-spmenu-open');
+            disableOther('showRightPush');
+        };
+        function disableOther(button) {
+
+
+            if (button !== 'showRightPush') {
+                classie.toggle(showRightPush, 'disabled');
+            }
+        }
+    </script>
+</body>
+</html>

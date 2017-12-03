@@ -1,0 +1,200 @@
+.team-area ul li {
+    list-style: none;
+}
+
+    .team-area ul li article {
+        padding: 10px;
+        border: 1px solid #d5e3e8;
+        margin-bottom: -1px;
+    }
+
+
+
+.team-area .team-socials-link li,
+.team-area .team-avatar {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+    .team-area .team-avatar .mask {
+        width: 600px;
+        height: 312px;
+        background: rgba(255, 255, 255, .1);
+        display: inline-block;
+        position: absolute;
+        right: 350px;
+        top: 0;
+        -moz-transform: skew(-45deg);
+        -webkit-transform: skew(-45deg);
+        -webkit-transition: all .6s ease-in-out;
+        -moz-transition: all .6s ease-in-out;
+        -ms-transition: all .6s ease-in-out;
+        -o-transition: all .6s ease-in-out;
+        transition: all .6s ease-in-out;
+    }
+
+#nhansuId li {
+    margin-bottom:10px;
+}
+#main-content .team-widget .widget-title {
+    margin: 14px 0 14px 10px;
+}
+
+.team-area ul {
+    padding-left: 0px;
+    margin:auto;
+    float:none;
+}
+
+    .team-area >ul >li {
+        list-style: none;
+        float: left;
+        min-height: 350px;
+        margin-bottom: 10px;
+        text-align:center;
+    }
+
+
+            .team-area ul li article img {
+                display: block;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .team-area ul li article header {
+            }
+
+                .team-area ul li article header a {
+                    text-decoration: none;
+                    display: block;
+                    color: #ff6850;
+                    font-size: 17px;
+                    text-transform: capitalize;
+                    margin-bottom: 5px;
+                }
+
+                    .team-area ul li article header a:hover,
+                    .team-area ul li article header span {
+                        color: #06c5ac;
+                    }
+
+.team-area .team-avatar {
+    position: relative;
+    overflow: hidden;
+}
+
+.team-area p {
+    max-height: 40px;
+    min-height: 40px;
+    overflow:hidden;
+}
+
+.team-area .team-avatar .mask {
+    width: 600px;
+    height: 312px;
+    background: rgba(255, 255, 255, .3);
+    display: inline-block;
+    position: absolute;
+    right: 250px;
+    top: 0;
+    -moz-transform: skew(-45deg);
+    -webkit-transform: skew(-45deg);
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -ms-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+}
+
+.team-area .team-avatar:hover .mask {
+    right: -600px;
+}
+
+.team-area .team-socials-link,
+.team-area .social-media-widget,
+.about-des .social-media-widget {
+    margin: 10px 0 0;
+}
+
+    .team-area .team-socials-link li {
+        border: none;
+        width: 40px;
+        height: 40px;
+        background-color: #d7d7d7;
+        margin: 0 0 0 1px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+        .team-area .team-socials-link li a {
+            color: #fff;
+            display: block;
+            line-height: 45px;
+            font-size: 21px;
+        }
+
+        .team-area .team-socials-link li:hover {
+            background-color: #06c5ac;
+        }
+
+        .team-area .team-socials-link li.pinterest:hover {
+            background-color: #cb2027;
+        }
+
+        .team-area .team-socials-link li.googleplus:hover {
+            background-color: #e40000;
+        }
+
+        .team-area .team-socials-link li.twitter:hover {
+            background-color: #00d2ff;
+        }
+
+        .team-area .team-socials-link li.facebook:hover {
+            background-color: #2f75ab;
+        }
+
+.mail:hover {
+    background: #00d2ff;
+}
+
+.website:hover {
+    background: #ff6a00;
+}
+
+.phone:hover {
+    background: #2f75ab;
+}
+
+.social-bookmarks {
+    list-style: none;
+    padding-left: 0px;
+    display:table;
+}
+
+    .social-bookmarks li {
+        float:left;
+        display: block;
+        padding:5px 10px;
+        height:initial!important;
+        background: #ccc;
+        padding: 0px !important;
+        border: none !important;
+    }
+
+        .social-bookmarks li a {
+            display: block;
+            padding:10px;
+            text-align: center;
+            color: #fff;
+            text-decoration: none;
+        }
+
+            .social-bookmarks li a:hover {
+            }
+#nhanSuID thead {
+    color:#fff;
+    background:#2f75ab;
+}
